@@ -1,0 +1,13 @@
+<div class="container d-flex flex-column align-items-center my-0 mx-auto">
+
+    <div class="sub-container">
+        <app-image *ngIf="setImage"></app-image>
+        <h4>Programador: {{newName}}</h4>
+        <app-description (name)="programmerName($event)" [tecnologias]="languajes"></app-description>
+        <button class="btn btn-primary" (click)="showImage()" *ngIf="setImage;else ocultar;">Ocultar Imagen</button>
+        <ng-template #ocultar>
+        <button class="btn btn-primary" (click)="showImage()" *ngIf="!setImage">Ver Imagen</button>
+        </ng-template>
+    </div>
+
+</div>

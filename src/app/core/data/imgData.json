@@ -1,0 +1,61 @@
+{
+    "data": [
+        {
+            "_id": "1",
+            "url": "../../../assets/img/img0.jpg",
+            "categoria": "Bosque",
+            "price": 2400,
+            "author": "Claire Martin"
+        },
+        {
+            "_id": "2",
+            "url": "../../../assets/img/img1.jpg",
+            "categoria": "Bosque",
+            "price": 830,
+            "author": "Justine Petit"
+        },
+        {
+            "_id": "3",
+            "url": "../../../assets/img/img2.jpg",
+            "categoria": "Bosque",
+            "price": 1000,
+            "author": "Jhon Smith"
+        },
+        {
+            "_id": "4",
+            "url": "../../../assets/img/img3.jpg",
+            "categoria": "Bosque",
+            "price": 430,
+            "author": "Samantha Gray"
+        },
+        {
+            "_id": "5",
+            "url": "../../../assets/img/img4.jpg",
+            "categoria": "Playa",
+            "price": 700,
+            "author": "Gustavo Palacios"
+        },
+        {
+            "_id": "6",
+            "url": "../../../assets/img/img5.jpg",
+            "categoria": "Playa",
+            "price": 3000,
+            "author": "Javier Mendez"
+        },
+        {
+            "_id": "7",
+            "url": "../../../assets/img/img6.jpg",
+            "categoria": "Playa",
+            "price": 1.300,
+            "author": "Katherine Jhonson"
+        },
+        {
+            "_id": "8",
+            "url": "../../../assets/img/img7.jpg",
+            "categoria": "Playa",
+            "price": 1.500,
+            "author": "Amanda Miller"
+        }
+
+    ]
+}

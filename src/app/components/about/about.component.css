@@ -1,0 +1,43 @@
+h1 {
+    margin: 48px 0 20px;
+}
+
+div img {
+    width: 100%;
+}
+
+.container {
+    margin-bottom: 48px;
+}
+
+#text-1{
+    padding-left: 15px;
+    border-radius: 8px;
+}
+
+#text-2{
+    padding-right: 15px;
+    border-radius: 8px;
+}
+
+.text-cont p {
+    font-size: 18px;
+}
+
+.teaching {
+    margin-top: 80px;
+}
+
+@media screen and (max-width: 767px) {
+    #text-1, #text-2 {
+        padding-left: 0;
+    }
+        .row div:nth-child(1) { order: 2; }
+        .row div:nth-child(2) { order: 1; }
+        .row div:nth-child(3) { order: 3; }
+        .row div:nth-child(4) { order: 4; }
+
+    .teaching {
+        margin-top: 0px;
+    }
+}

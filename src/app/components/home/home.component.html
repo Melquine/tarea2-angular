@@ -1,0 +1,21 @@
+<div class="container">
+    <h1>Galería de imágenes</h1>
+    <h3>Bienvenido a la galería de imágenes más populares de internet</h3>
+    <div class="row">
+
+        <div *ngFor="let img of images" class="col-xl-3 col-lg-4 col-md-6 col-sm-6 col-6" style="text-align: center;">
+            <div style=" margin-top: 24px;">
+                <div class="card" style="background-color: #F7F6F6;">
+                    <img [src]="img.url" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Categoría: {{img.categoria}}</h5>
+                        <p class="card-text">Fotógrafo: {{img.author}}</p>
+                        <!-- <p>Duración: <span>24</span> meses</p> -->
+                        <a href="#" class="btn btn-primary">Comprar</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
